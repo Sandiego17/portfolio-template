@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layout Master</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
- <nav class="zone blue sticky">
-  <ul class="main-nav">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Our Tean</a></li>
-    <li class="push"><a href="#">Contacts</a></li>
-  </ul>
- </nav>
-  <div class="container zone"><img src="./img/undraw.png" alt="" class="cover"></div>
-  <div class="zone blue grid-wrapper">
-    <div class="box zone"><img src="./img/files_2.png" alt="files"></div>
-    <div class="box zone"><img src="./img/server_2_2.png" alt="first_server"></div>
-    <div class="box zone"><img src="./img/monitor_settings_2.png" alt="first_monitor"></div>
-    <div class="box zone"><img src="./img/server_3.png" alt="second_server"></div>
-    <div class="box zone"><img src="./img/data_storage_2_2.png" alt="storage"></div>
-    <div class="box zone"><img src="./img/monitor_coding_2.png" alt="second_monitor"></div>
-    <div class="box zone"><img src="./img/desktop_analytics_2.png" alt="desktop"></div>
-    <div class="box zone"><img src="./img/server_safe_2.png" alt="safe"></div>
-  </div>
-  <footer class="zone yellow">zero => mastery</footer>
-</body>
+    <nav class="zone blue sticky">
+        <ul class="main-nav">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Products</a></li>
+            <li class="link"><a href="#">Our Team</a></li>
+            <li class="link"><a href="#">Contact Us</a></li>
+            <li class="push">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
 
+    <div class="container zone"><img src="./images/undraw.png" alt="profile-picture" class="cover"></div>
+
+    <div class="zone blue grid-wrapper">
+        <div class="box zone"><img src="./images/files_2.png" alt="files"></div>
+        <div class="box zone"><img src="./images/server_2_2.png" alt="server"></div>
+        <div class="box zone"><img src="./images/monitor_settings_2.png" alt="monitor"></div>
+        <div class="box zone"><img src="./images/server_3.png" alt="server-02"></div>
+        <div class="box zone"><img src="./images/data_storage_2_2.png" alt="server-03"></div>
+        <div class="box zone"><img src="./images/monitor_coding_2.png" alt="monitor-02"></div>
+        <div class="box zone"><img src="./images/desktop_analytics_2.png" alt="desktop"></div>
+        <div class="box zone"><img src="./images/server_safe_2.png" alt="server-04"></div>
+    </div>
+
+    <footer class="zone yellow">
+        <h4>&#169;</h4>
+        <h4>Portfolio</h4>
+        <h4>&#9824; &#9827;</h4>
+        <h4 class="red">&#9829; &#9830;</h4>
+    </footer>
+</body>
 </html>
